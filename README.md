@@ -6,6 +6,8 @@ You give Blindspot a decision question and the sources you found. It tells you w
 
 Built for the Shinchan Online Hackathon 2026 (Devengers × Unstop), problem statement **"Digital Dark Spot"**.
 
+**Live demo:** https://frontend-one-xi-29.vercel.app (frontend only: the sample case, the Trap Lab recorded run and Demo mode work without a backend; live analysis needs the backend, see [docs/DEPLOY.md](docs/DEPLOY.md)).
+
 ![Report: verdict, why, and the verdict ladder](docs/screenshots/16-report-verdict.png)
 
 **The pitch in one line:** AI proposes, code verifies. The AI suggests what to look for and which sentence supports each claim; plain code checks that sentence is really on the page, ranks who said it, and decides every status and the verdict.

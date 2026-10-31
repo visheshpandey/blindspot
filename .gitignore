@@ -11,3 +11,6 @@ venv/
 backend/.cache/
 screenshots/tmp/
 frontend/screenshots/
+
+# Vercel local project link
+.vercel
