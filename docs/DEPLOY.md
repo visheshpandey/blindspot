@@ -1,6 +1,6 @@
 # Deploying Blindspot (free tiers)
 
-The frontend is deployed on Vercel (https://frontend-one-xi-29.vercel.app) and runs in sample/recorded-run mode. The backend still needs to be deployed on Render to enable live analysis. Both hosts below have free plans; check their current terms before you add a card. Never put API keys in the repo: set them in each host's dashboard.
+The frontend is deployed on Vercel (https://blindspot-two-lyart.vercel.app, project `blindspot`) and the backend on Render (https://blindspot-api-pe86.onrender.com, service `blindspot-api`). Live analysis turns on once `GEMINI_API_KEY` is set on the Render service. Both hosts below have free plans; check their current terms before you add a card. Never put API keys in the repo: set them in each host's dashboard.
 
 ## Backend: Render (free web service)
 

@@ -6,7 +6,7 @@ You give Blindspot a decision question and the sources you found. It tells you w
 
 Built for the Shinchan Online Hackathon 2026 (Devengers × Unstop), problem statement **"Digital Dark Spot"**.
 
-**Live demo:** https://frontend-one-xi-29.vercel.app (frontend only: the sample case, the Trap Lab recorded run and Demo mode work without a backend; live analysis needs the backend, see [docs/DEPLOY.md](docs/DEPLOY.md)).
+**Live demo:** https://blindspot-two-lyart.vercel.app · API: https://blindspot-api-pe86.onrender.com/health (free hosting: the API sleeps when idle, so the first request can take up to a minute). Without an AI key on the server the app runs in sample mode: the sample case, the Trap Lab recorded run and Demo mode. See [docs/DEPLOY.md](docs/DEPLOY.md).
 
 ![Report: verdict, why, and the verdict ladder](docs/screenshots/16-report-verdict.png)
 
