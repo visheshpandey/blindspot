@@ -1,0 +1,413 @@
+{
+  "investigation_id": "INV-LIVE",
+  "title": "What should I verify before applying for the post-matric scholarship",
+  "question": "What should I verify before applying for the post-matric scholarship?",
+  "context": {
+    "year": "2026–27",
+    "location": "Madhya Pradesh",
+    "category": "Undergraduate student"
+  },
+  "coverage": 60,
+  "verdict": "Not ready to decide",
+  "blockers": [
+    {
+      "finding_id": "caste-category-eligibility",
+      "status": "outdated"
+    },
+    {
+      "finding_id": "income-limit",
+      "status": "missing"
+    },
+    {
+      "finding_id": "domicile-requirement",
+      "status": "outdated"
+    },
+    {
+      "finding_id": "required-documents-list",
+      "status": "missing"
+    },
+    {
+      "finding_id": "application-deadline",
+      "status": "missing"
+    },
+    {
+      "finding_id": "academic-criteria",
+      "status": "outdated"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "name": "NSP : National Scholarship Portal",
+      "host": "scholarships.gov.in",
+      "type": "Primary",
+      "state": "Readable",
+      "date": "Mentions 2026–27",
+      "url": "https://scholarships.gov.in/",
+      "color": "blue",
+      "excerpt": "Announcements The PM YASASVI Central Sector Scheme Of Top Class Education In Schools For OBC, EBC And DNT Students is now open for receiving Fresh applications.",
+      "undated": false
+    },
+    {
+      "id": "S2",
+      "name": "Post-Matric Scholarship for SC students | Department of Social Justice and Empowerment - G",
+      "host": "socialjustice.gov.in",
+      "type": "Primary",
+      "state": "Readable",
+      "date": "Mentions 2020–21",
+      "url": "https://socialjustice.gov.in/schemes/25",
+      "color": "blue",
+      "excerpt": "| # | Title | Start Publish Date | End Publish Date | FileSize | Action | |---| SCHEME OF POST MATRIC SCHOLARSHIPS TO THE STUDENTS BELONGING TO SCHEDULED CASTES",
+      "undated": false
+    },
+    {
+      "id": "S3",
+      "name": "en.wikipedia.org",
+      "host": "en.wikipedia.org",
+      "type": "Unverified",
+      "state": "Blocked",
+      "date": "Could not fetch page",
+      "url": "https://en.wikipedia.org/wiki/Post_Matric_Scholarship_for_Scheduled_Castes",
+      "color": "rose",
+      "excerpt": "The site answered with an error (403).",
+      "undated": false
+    }
+  ],
+  "findings": [
+    {
+      "id": "caste-category-eligibility",
+      "title": "Caste/Category Eligibility",
+      "category": "Eligibility",
+      "status": "outdated",
+      "critical": true,
+      "summary": "Possibly outdated: the only evidence belongs to an earlier cycle than 2026–27.",
+      "value": "Students belonging to Scheduled Castes (SC) are eligible for this scholarship. (from 2020–21)",
+      "sources": [
+        {
+          "source": "S2",
+          "value": "Students belonging to Scheduled Castes (SC) are eligible for this scholarship.",
+          "quote": "SCHEME OF POST MATRIC SCHOLARSHIPS TO THE STUDENTS BELONGING TO SCHEDULED CASTES FOR STUDIES IN INDIA (PMS-SC)",
+          "quote_match": 100,
+          "date": "2020–21",
+          "url": "https://socialjustice.gov.in/schemes/25"
+        }
+      ],
+      "note": "It would be wise to verify the latest caste/category eligibility criteria to ensure you meet the requirements for the 2026–27 cycle.",
+      "note_is_ai": true,
+      "undated": false
+    },
+    {
+      "id": "income-limit",
+      "title": "Family Income Limit",
+      "category": "Eligibility",
+      "status": "missing",
+      "critical": true,
+      "summary": "Potential gap: none of the 2 analysed source(s) mention family income limit.",
+      "value": "Not found in supplied sources",
+      "sources": [],
+      "note": "You should confirm the current family income limit as this is often a key eligibility factor for scholarships.",
+      "note_is_ai": true,
+      "undated": false
+    },
+    {
+      "id": "domicile-requirement",
+      "title": "Domicile Requirement",
+      "category": "Eligibility",
+      "status": "outdated",
+      "critical": true,
+      "summary": "Possibly outdated: the only evidence belongs to an earlier cycle than 2026–27.",
+      "value": "Applicant must be permanently settled or domiciled in the State/UT. (from 2020–21)",
+      "sources": [
+        {
+          "source": "S2",
+          "value": "Applicant must be permanently settled or domiciled in the State/UT.",
+          "quote": "the State Government/Union Territory to which the applicant actually belongs (i.e. the State/UT in which permanently settled or domiciled, as per the terms of domicile decided by the State).",
+          "quote_match": 100,
+          "date": "2020–21",
+          "url": "https://socialjustice.gov.in/schemes/25"
+        }
+      ],
+      "note": "It is advisable to check the specific domicile requirements for Madhya Pradesh for the current scholarship cycle.",
+      "note_is_ai": true,
+      "undated": false
+    },
+    {
+      "id": "required-documents-list",
+      "title": "Required Documents List",
+      "category": "Documents",
+      "status": "missing",
+      "critical": true,
+      "summary": "Potential gap: none of the 2 analysed source(s) mention required documents list.",
+      "value": "Not found in supplied sources",
+      "sources": [],
+      "note": "Gathering all necessary documents in advance can help streamline your application process.",
+      "note_is_ai": true,
+      "undated": false
+    },
+    {
+      "id": "application-deadline",
+      "title": "Application Deadline",
+      "category": "Timeline",
+      "status": "missing",
+      "critical": true,
+      "summary": "Potential gap: none of the 2 analysed source(s) mention application deadline.",
+      "value": "Not found in supplied sources",
+      "sources": [],
+      "note": "Make sure to find and note the application deadline to submit your scholarship application on time.",
+      "note_is_ai": true,
+      "undated": false
+    },
+    {
+      "id": "application-portal",
+      "title": "Application Portal/Website",
+      "category": "Process",
+      "status": "supported",
+      "critical": true,
+      "summary": "Supported by 1 source(s); strongest: NSP : National Scholarship Portal (Primary).",
+      "value": "Applications are submitted on the National Scholarship Portal (NSP).",
+      "sources": [
+        {
+          "source": "S1",
+          "value": "Applications are submitted on the National Scholarship Portal (NSP).",
+          "quote": "OTR is required to apply for the scholarships on National Scholarship Portal from AY 2024-25.",
+          "quote_match": 100,
+          "date": "2026–27",
+          "url": "https://scholarships.gov.in/"
+        }
+      ],
+      "note": "Ensure you apply through the official National Scholarship Portal (NSP) to avoid fraudulent websites.",
+      "note_is_ai": true,
+      "undated": false
+    },
+    {
+      "id": "academic-criteria",
+      "title": "Academic Qualification Criteria",
+      "category": "Eligibility",
+      "status": "outdated",
+      "critical": true,
+      "summary": "Possibly outdated: the only evidence belongs to an earlier cycle than 2026–27.",
+      "value": "Scholarship is for studies at post-matriculation or post-secondary stage. (from 2020–21)",
+      "sources": [
+        {
+          "source": "S2",
+          "value": "Scholarship is for studies at post-matriculation or post-secondary stage.",
+          "quote": "by providing financial assistance at post-matriculation or post-secondary stage to enable them to complete their education.",
+          "quote_match": 100,
+          "date": "2020–21",
+          "url": "https://socialjustice.gov.in/schemes/25"
+        }
+      ],
+      "note": "It is recommended to confirm the academic qualification criteria to ensure your undergraduate status aligns with the scholarship's requirements.",
+      "note_is_ai": true,
+      "undated": false
+    },
+    {
+      "id": "verification-steps",
+      "title": "Verification Process Steps",
+      "category": "Process",
+      "status": "supported",
+      "critical": false,
+      "summary": "Supported by 1 source(s); strongest: NSP : National Scholarship Portal (Primary).",
+      "value": "Institute verification and L2 verification are part of the process.",
+      "sources": [
+        {
+          "source": "S1",
+          "value": "Institute verification and L2 verification are part of the process.",
+          "quote": "closing date for institute verification is : 15-11-2026 and closing date for L2 verification is : 30/11/2026",
+          "quote_match": 100,
+          "date": "2026",
+          "url": "https://scholarships.gov.in/"
+        }
+      ],
+      "note": "Understanding the verification steps, including institute and L2 verification, can help you prepare for the process.",
+      "note_is_ai": true,
+      "undated": false
+    },
+    {
+      "id": "scholarship-amount",
+      "title": "Scholarship Amount Details",
+      "category": "Financial",
+      "status": "missing",
+      "critical": false,
+      "summary": "Potential gap: none of the 2 analysed source(s) mention scholarship amount details.",
+      "value": "Not found in supplied sources",
+      "sources": [],
+      "note": "While not critical for application, knowing the scholarship amount can help you understand the potential benefits.",
+      "note_is_ai": true,
+      "undated": false
+    },
+    {
+      "id": "contact-info",
+      "title": "Contact Information for Support",
+      "category": "Contact",
+      "status": "supported",
+      "critical": false,
+      "summary": "Supported by 1 source(s); strongest: NSP : National Scholarship Portal (Primary).",
+      "value": "Scholarship-related services are available at Common Service Centres (CSCs).",
+      "sources": [
+        {
+          "source": "S1",
+          "value": "Scholarship-related services are available at Common Service Centres (CSCs).",
+          "quote": "NSP services are now available at Common Service Centres (CSCs).",
+          "quote_match": 100,
+          "date": "Not specified",
+          "url": "https://scholarships.gov.in/"
+        }
+      ],
+      "note": "If you encounter any issues or have questions, Common Service Centres (CSCs) are a suggested resource for support.",
+      "note_is_ai": true,
+      "undated": true
+    }
+  ],
+  "key_facts": [
+    {
+      "finding_id": "caste-category-eligibility",
+      "title": "Caste/Category Eligibility",
+      "value": "Students belonging to Scheduled Castes (SC) are eligible for this scholarship. (from 2020–21)",
+      "sources": [
+        "S2"
+      ]
+    },
+    {
+      "finding_id": "income-limit",
+      "title": "Family Income Limit",
+      "value": "Not found in supplied sources",
+      "sources": []
+    },
+    {
+      "finding_id": "domicile-requirement",
+      "title": "Domicile Requirement",
+      "value": "Applicant must be permanently settled or domiciled in the State/UT. (from 2020–21)",
+      "sources": [
+        "S2"
+      ]
+    },
+    {
+      "finding_id": "required-documents-list",
+      "title": "Required Documents List",
+      "value": "Not found in supplied sources",
+      "sources": []
+    },
+    {
+      "finding_id": "application-deadline",
+      "title": "Application Deadline",
+      "value": "Not found in supplied sources",
+      "sources": []
+    },
+    {
+      "finding_id": "application-portal",
+      "title": "Application Portal/Website",
+      "value": "Applications are submitted on the National Scholarship Portal (NSP).",
+      "sources": [
+        "S1"
+      ]
+    },
+    {
+      "finding_id": "academic-criteria",
+      "title": "Academic Qualification Criteria",
+      "value": "Scholarship is for studies at post-matriculation or post-secondary stage. (from 2020–21)",
+      "sources": [
+        "S2"
+      ]
+    },
+    {
+      "finding_id": "verification-steps",
+      "title": "Verification Process Steps",
+      "value": "Institute verification and L2 verification are part of the process.",
+      "sources": [
+        "S1"
+      ]
+    },
+    {
+      "finding_id": "scholarship-amount",
+      "title": "Scholarship Amount Details",
+      "value": "Not found in supplied sources",
+      "sources": []
+    },
+    {
+      "finding_id": "contact-info",
+      "title": "Contact Information for Support",
+      "value": "Scholarship-related services are available at Common Service Centres (CSCs).",
+      "sources": [
+        "S1"
+      ]
+    }
+  ],
+  "unanswered_questions": [
+    {
+      "finding_id": "caste-category-eligibility",
+      "question": "What are the current caste/category eligibility criteria for the 2026–27 post-matric scholarship?"
+    },
+    {
+      "finding_id": "income-limit",
+      "question": "What is the family income limit for eligibility for the 2026–27 post-matric scholarship?"
+    },
+    {
+      "finding_id": "domicile-requirement",
+      "question": "What is the specific domicile requirement for Madhya Pradesh for the 2026–27 post-matric scholarship?"
+    },
+    {
+      "finding_id": "required-documents-list",
+      "question": "What is the complete list of documents required for the 2026–27 post-matric scholarship application?"
+    },
+    {
+      "finding_id": "application-deadline",
+      "question": "What is the application deadline for the 2026–27 post-matric scholarship?"
+    },
+    {
+      "finding_id": "academic-criteria",
+      "question": "What are the current academic qualification criteria for the 2026–27 post-matric scholarship for undergraduate students?"
+    },
+    {
+      "finding_id": "scholarship-amount",
+      "question": "What are the details of the scholarship amount for the 2026–27 post-matric scholarship?"
+    }
+  ],
+  "checklist": [
+    {
+      "id": "c1",
+      "text": "Verify the current family income limit for the 2026–27 post-matric scholarship.",
+      "why": "The family income limit is missing from supplied sources.",
+      "where": "National Scholarship Portal (NSP)",
+      "critical": true
+    },
+    {
+      "id": "c2",
+      "text": "Confirm the complete list of required documents for the 2026–27 post-matric scholarship application.",
+      "why": "The list of required documents is missing from supplied sources.",
+      "where": "National Scholarship Portal (NSP)",
+      "critical": true
+    },
+    {
+      "id": "c3",
+      "text": "Ascertain the exact application deadline for the 2026–27 post-matric scholarship.",
+      "why": "The application deadline is missing from supplied sources.",
+      "where": "National Scholarship Portal (NSP)",
+      "critical": true
+    },
+    {
+      "id": "c4",
+      "text": "Check the current caste/category eligibility criteria for the 2026–27 cycle, specifically for Scheduled Castes.",
+      "why": "The caste/category eligibility information is outdated (from 2020–21).",
+      "where": "National Scholarship Portal (NSP)",
+      "critical": true
+    },
+    {
+      "id": "c5",
+      "text": "Verify the domicile requirement for Madhya Pradesh for the 2026–27 scholarship cycle.",
+      "why": "The domicile requirement information is outdated (from 2020–21).",
+      "where": "National Scholarship Portal (NSP)",
+      "critical": true
+    },
+    {
+      "id": "c6",
+      "text": "Confirm the academic qualification criteria for undergraduate students applying for the 2026–27 post-matric scholarship.",
+      "why": "The academic qualification criteria information is outdated (from 2020–21).",
+      "where": "National Scholarship Portal (NSP)",
+      "critical": true
+    }
+  ],
+  "generated_at": "2026-10-30T18:05:30+00:00",
+  "mode": "live",
+  "warnings": []
+}

@@ -1,0 +1,18 @@
+import { chromium } from 'playwright'
+const BASE = process.env.BASE_URL || 'http://localhost:5173'
+const b = await chromium.launch({ channel: 'chromium' })
+const ctx = await b.newContext({ viewport: { width: 1440, height: 900 } })
+await ctx.addInitScript(() => { if (!sessionStorage.getItem('i')) { sessionStorage.setItem('i', '1'); localStorage.setItem('blindspot.tour.seen', '1'); localStorage.setItem('blindspot.demoMode', '1') } })
+const p = await ctx.newPage(); const errors = []; p.on('console', (m) => m.type() === 'error' && errors.push(m.text()))
+await p.goto(`${BASE}/#/counsellor`); await p.waitForSelector('.student-card')
+console.log('students:', (await p.locator('.student-card h2').allInnerTexts()).join(', '))
+console.log('first group (most urgent):', await p.locator('.student-card').first().locator('h2').innerText())
+await p.screenshot({ path: 'screenshots/counsellor.png' })
+await p.locator('.student-card li button').first().click(); await p.waitForSelector('.student-tag input')
+await p.locator('.student-tag input').fill('Meena'); await p.locator('.student-tag input').press('Enter')
+await p.goto(`${BASE}/#/counsellor`); await p.waitForSelector('.student-card')
+console.log('after tagging:', (await p.locator('.student-card h2').allInnerTexts()).join(', '))
+const [dl] = await Promise.all([p.waitForEvent('download'), p.locator('button', { hasText: 'Download CSV' }).click()])
+console.log('csv file:', dl.suggestedFilename())
+console.log('errors:', errors.length)
+await b.close()

@@ -1,0 +1,20 @@
+// Cancel asks for confirmation, stops the run, and returns to the form with inputs kept.
+import { chromium } from 'playwright'
+const BASE = process.env.BASE_URL || 'http://localhost:5173'
+const b = await chromium.launch({ channel: 'chromium' })
+const ctx = await b.newContext({ viewport: { width: 1280, height: 860 } })
+await ctx.addInitScript(() => localStorage.setItem('blindspot.tour.seen', '1'))
+const p = await ctx.newPage()
+await p.goto(`${BASE}/#/new`); await p.waitForSelector('.ni-form')
+await p.locator('#question').fill('What should I check before accepting this internship offer at a startup?')
+await p.locator('button[type=submit]').click()
+await p.waitForSelector('.analyzing-panel')
+await p.locator('.analyzing-actions button', { hasText: 'Cancel' }).click()
+const dialog = await p.locator('[role=alertdialog]').isVisible()
+await p.locator('[role=alertdialog] button', { hasText: 'Stop and edit' }).click()
+await p.waitForSelector('.ni-form')
+const q = await p.locator('#question').inputValue()
+console.log(dialog ? 'PASS confirm dialog shown' : 'FAIL no confirm dialog')
+console.log(p.url().endsWith('#/new') ? 'PASS back on the form' : `FAIL url ${p.url()}`)
+console.log(q.includes('startup') ? 'PASS question kept' : `FAIL question lost: ${q}`)
+await b.close()
