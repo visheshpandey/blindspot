@@ -1,0 +1,394 @@
+{
+  "investigation_id": "INV-024",
+  "title": "Post-matric scholarship — MP",
+  "question": "What should I verify before applying for the post-matric scholarship?",
+  "context": {
+    "year": "2026–27",
+    "location": "Madhya Pradesh",
+    "category": "Undergraduate student"
+  },
+  "coverage": 67,
+  "verdict": "Not ready to decide",
+  "blockers": [
+    {
+      "finding_id": "documents",
+      "status": "conflict"
+    },
+    {
+      "finding_id": "deadline",
+      "status": "outdated"
+    },
+    {
+      "finding_id": "renewal",
+      "status": "missing"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "name": "National Scholarship Portal",
+      "host": "scholarships.gov.in",
+      "type": "Primary",
+      "state": "Readable",
+      "date": "Updated 18 Sep 2026",
+      "url": "https://scholarships.gov.in/",
+      "color": "blue",
+      "excerpt": "Official scheme information and application instructions.",
+      "undated": false
+    },
+    {
+      "id": "S2",
+      "name": "Acropolis University Notice",
+      "host": "acropolis.in",
+      "type": "Institutional",
+      "state": "Readable",
+      "date": "Published 21 Aug 2026",
+      "url": "https://example.com/university-notice",
+      "color": "violet",
+      "excerpt": "Institutional circular for eligible students.",
+      "undated": false
+    },
+    {
+      "id": "S3",
+      "name": "Scholarship Guide India",
+      "host": "scholarshipguide.in",
+      "type": "Secondary",
+      "state": "Readable",
+      "date": "Published 12 Jul 2025",
+      "url": "https://example.com/scholarship-guide",
+      "color": "amber",
+      "excerpt": "A general guide covering documents and deadlines.",
+      "undated": false
+    },
+    {
+      "id": "S4",
+      "name": "Student Help Blog",
+      "host": "studenthelp.co.in",
+      "type": "Secondary",
+      "state": "Readable",
+      "date": "Published 04 Jun 2025",
+      "url": "https://example.com/student-help",
+      "color": "amber",
+      "excerpt": "A student-written summary of the previous application cycle.",
+      "undated": false
+    },
+    {
+      "id": "S5",
+      "name": "Education Updates",
+      "host": "edu-updates.example",
+      "type": "Unverified",
+      "state": "Blocked",
+      "date": "Could not fetch page",
+      "url": "https://edu-updates.example/",
+      "color": "rose",
+      "excerpt": "The page could not be read automatically.",
+      "undated": true
+    }
+  ],
+  "findings": [
+    {
+      "id": "eligibility",
+      "title": "Income eligibility",
+      "category": "Eligibility",
+      "status": "supported",
+      "critical": true,
+      "summary": "The income ceiling is described by the official portal. One secondary source gives a different figure without identifying the cycle.",
+      "value": "Annual family income up to ₹2.5 lakh",
+      "sources": [
+        {
+          "source": "S1",
+          "value": "Up to ₹2.5 lakh per annum",
+          "quote": "The annual income of parents / guardians from all sources should not exceed ₹2,50,000.",
+          "quote_match": 98,
+          "date": "2026–27",
+          "url": "https://scholarships.gov.in/"
+        },
+        {
+          "source": "S3",
+          "value": "Up to ₹2 lakh per annum",
+          "quote": "Applicants must have a family income below Rs. 2 lakh per year.",
+          "quote_match": 94,
+          "date": "Not specified",
+          "url": "https://example.com/scholarship-guide"
+        }
+      ],
+      "note": "The official portal is the primary source for this scheme. The blog does not state which application cycle its figure applies to.",
+      "note_is_ai": true,
+      "undated": true
+    },
+    {
+      "id": "documents",
+      "title": "Required income document",
+      "category": "Documents",
+      "status": "conflict",
+      "critical": true,
+      "summary": "The official portal and one guide describe different supporting documents. Confirm the accepted document for this applicant category.",
+      "value": "Income certificate / ITR — needs confirmation",
+      "sources": [
+        {
+          "source": "S1",
+          "value": "Income certificate",
+          "quote": "A valid income certificate issued by the competent authority must be uploaded with the application.",
+          "quote_match": 97,
+          "date": "2026–27",
+          "url": "https://scholarships.gov.in/"
+        },
+        {
+          "source": "S4",
+          "value": "ITR acknowledgement",
+          "quote": "Students should keep the latest ITR acknowledgement ready during document verification.",
+          "quote_match": 92,
+          "date": "2025–26",
+          "url": "https://example.com/student-help"
+        }
+      ],
+      "note": "These statements may refer to different applicant situations. Do not treat them as interchangeable until the current scheme instructions are checked.",
+      "note_is_ai": true,
+      "undated": false
+    },
+    {
+      "id": "deadline",
+      "title": "Application deadline",
+      "category": "Timeline",
+      "status": "outdated",
+      "critical": true,
+      "summary": "A source gives a deadline from the previous cycle. No current closing date was found in the supplied readable sources.",
+      "value": "Current deadline not confirmed",
+      "sources": [
+        {
+          "source": "S2",
+          "value": "30 November 2025",
+          "quote": "The last date for submitting the online application is 30 November 2025.",
+          "quote_match": 100,
+          "date": "2025–26",
+          "url": "https://example.com/university-notice"
+        }
+      ],
+      "note": "The date is explicitly associated with the 2025–26 cycle and should not be reused for 2026–27.",
+      "note_is_ai": true,
+      "undated": false
+    },
+    {
+      "id": "renewal",
+      "title": "Renewal rules",
+      "category": "Renewal",
+      "status": "missing",
+      "critical": true,
+      "summary": "None of the successfully analysed sources explains the renewal conditions for the next academic year.",
+      "value": "Not found in supplied sources",
+      "sources": [],
+      "note": "Check the official scheme guidelines or contact the scheme authority before assuming renewal is automatic.",
+      "note_is_ai": true,
+      "undated": false
+    },
+    {
+      "id": "additional-guidance",
+      "title": "Additional department guidance",
+      "category": "Documents",
+      "status": "unverified",
+      "critical": false,
+      "summary": "One supplied website could not be read automatically, so its guidance could not be checked.",
+      "value": "Could not verify from blocked source",
+      "sources": [],
+      "note": "The Education Updates page blocked automated access. Paste its text or review it manually before relying on any additional requirements.",
+      "note_is_ai": true,
+      "undated": false
+    },
+    {
+      "id": "benefit",
+      "title": "Scholarship amount",
+      "category": "Financial",
+      "status": "supported",
+      "critical": false,
+      "summary": "A benefit amount is mentioned in the official scheme information and institutional notice.",
+      "value": "Amount varies by course and category",
+      "sources": [
+        {
+          "source": "S1",
+          "value": "As per scheme rate table",
+          "quote": "The scholarship amount will be disbursed as per the applicable scheme rate and course category.",
+          "quote_match": 96,
+          "date": "2026–27",
+          "url": "https://scholarships.gov.in/"
+        },
+        {
+          "source": "S2",
+          "value": "As per scheme rate table",
+          "quote": "Eligible students will receive benefits according to the notified course-wise rates.",
+          "quote_match": 95,
+          "date": "2026–27",
+          "url": "https://example.com/university-notice"
+        }
+      ],
+      "note": "The sources agree at a high level, but the exact payable amount depends on course and category.",
+      "note_is_ai": true,
+      "undated": false
+    }
+  ],
+  "key_facts": [
+    {
+      "finding_id": "eligibility",
+      "title": "Income eligibility",
+      "value": "Annual family income up to ₹2.5 lakh",
+      "sources": [
+        "S1",
+        "S3"
+      ]
+    },
+    {
+      "finding_id": "documents",
+      "title": "Required income document",
+      "value": "Income certificate / ITR — needs confirmation",
+      "sources": [
+        "S1",
+        "S4"
+      ]
+    },
+    {
+      "finding_id": "deadline",
+      "title": "Application deadline",
+      "value": "Current deadline not confirmed",
+      "sources": [
+        "S2"
+      ]
+    },
+    {
+      "finding_id": "renewal",
+      "title": "Renewal rules",
+      "value": "Not found in supplied sources",
+      "sources": []
+    },
+    {
+      "finding_id": "additional-guidance",
+      "title": "Additional department guidance",
+      "value": "Could not verify from blocked source",
+      "sources": []
+    },
+    {
+      "finding_id": "benefit",
+      "title": "Scholarship amount",
+      "value": "Amount varies by course and category",
+      "sources": [
+        "S1",
+        "S2"
+      ]
+    }
+  ],
+  "unanswered_questions": [
+    {
+      "finding_id": "renewal",
+      "question": "Is renewal automatic, or must you reapply each year?"
+    },
+    {
+      "finding_id": "deadline",
+      "question": "What is the closing date for the 2026–27 cycle?"
+    },
+    {
+      "finding_id": "documents",
+      "question": "Which income document is accepted for an undergraduate applicant: income certificate or ITR?"
+    },
+    {
+      "finding_id": "additional-guidance",
+      "question": "Does the Education Updates page list any extra department requirements?"
+    }
+  ],
+  "checklist": [
+    {
+      "id": "c1",
+      "text": "Confirm the accepted income document for your applicant category",
+      "why": "The official portal and a secondary guide describe different documents.",
+      "where": "Current official scheme guidelines",
+      "critical": true
+    },
+    {
+      "id": "c2",
+      "text": "Find the 2026–27 application closing date",
+      "why": "The only date found belongs to the previous cycle.",
+      "where": "National Scholarship Portal notice board",
+      "critical": true
+    },
+    {
+      "id": "c3",
+      "text": "Confirm renewal conditions for the next academic year",
+      "why": "No supplied source explains the renewal process.",
+      "where": "Official scheme FAQ or scheme authority",
+      "critical": true
+    },
+    {
+      "id": "c4",
+      "text": "Check the course-wise benefit amount",
+      "why": "The amount depends on course and category.",
+      "where": "Official scheme rate table",
+      "critical": false
+    }
+  ],
+  "generated_at": "2026-10-30T10:42:00+05:30",
+  "mode": "demo",
+  "warnings": [
+    "Sample data, illustrative. Quotes, URLs and dates are not real scholarship guidance."
+  ],
+  "source_dna": {
+    "pairs": [
+      {
+        "a": "S3",
+        "b": "S4",
+        "overlap": 64,
+        "relation": "copied",
+        "shared_count": 3,
+        "shared_sentences": [
+          "Students should keep the latest ITR acknowledgement ready during document verification."
+        ]
+      },
+      {
+        "a": "S1",
+        "b": "S2",
+        "overlap": 18,
+        "relation": "overlap",
+        "shared_count": 1,
+        "shared_sentences": [
+          "The scholarship amount will be disbursed as per the applicable scheme rate and course category."
+        ]
+      },
+      {
+        "a": "S2",
+        "b": "S3",
+        "overlap": 7,
+        "relation": "independent",
+        "shared_count": 0,
+        "shared_sentences": []
+      },
+      {
+        "a": "S1",
+        "b": "S3",
+        "overlap": 4,
+        "relation": "independent",
+        "shared_count": 0,
+        "shared_sentences": []
+      },
+      {
+        "a": "S1",
+        "b": "S4",
+        "overlap": 3,
+        "relation": "independent",
+        "shared_count": 0,
+        "shared_sentences": []
+      },
+      {
+        "a": "S2",
+        "b": "S4",
+        "overlap": 2,
+        "relation": "independent",
+        "shared_count": 0,
+        "shared_sentences": []
+      }
+    ],
+    "clusters": [
+      [
+        "S3",
+        "S4"
+      ]
+    ],
+    "note": "1 group(s) of sources look like copies of each other; treat each group as one voice.",
+    "illustrative": true
+  }
+}
