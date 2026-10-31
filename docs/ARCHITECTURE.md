@@ -87,7 +87,7 @@ Blindspot/
 │     ├─ data.js            sample (mirrors scholarship.json)
 │     └─ styles/            tokens.css, base.css, town.css, report.css, print.css
 ├─ docs/                    PRD, ARCHITECTURE, PLAN, RULES, CHECKLIST
-├─ README.md, SUBMISSION.md, DEMO_SCRIPT.md
+├─ README.md, SUBMISSION.md
 └─ .env.example
 ```
 

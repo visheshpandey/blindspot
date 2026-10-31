@@ -77,6 +77,5 @@ Push to GitHub (public). From here on, the project is submittable even if later 
 
 ## Submission block
 - `SUBMISSION.md`: problem, solution, how it works, features, uniqueness, tech stack, future scope.
-- `DEMO_SCRIPT.md`: 2 minutes following the PS flow: question → add sources → extracted info → a gap + a conflict → open source references → generate checklist.
 - Optional: deploy (frontend on Vercel/Netlify, backend on Render/Railway free tier; confirm free tier with the user), demo video, PPT.
 - Repo public; README links work; the judge can run `Try sample` without keys.

@@ -101,7 +101,6 @@ Tick items as they are done. A feature is done only when it meets the Definition
 ## 10. Submission
 - [x] README: problem/users, USP paragraphs, Mermaid diagram, AI-vs-code steps, statuses + scoring rules, setup, demo mode, screenshots, limitations, future work, Decisions, AI-usage disclosure, credits
 - [x] `SUBMISSION.md` (problem, solution, how it works, features, uniqueness, stack, future scope)
-- [x] `DEMO_SCRIPT.md` (2 minutes, PS flow)
 - [ ] Repo public and accessible
 - [ ] Optional: live demo link · demo video · PPT
 - [ ] Submitted on Unstop before 1 Nov 17:00 IST
