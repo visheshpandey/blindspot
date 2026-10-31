@@ -1,0 +1,16 @@
+/* Export report: a clean, paper-friendly version of the report. */
+@media print {
+  @page { margin: 14mm; }
+  body { background: #fff !important; font-size: 11pt; }
+  .sidebar, .topbar, .app-footer, .skip-link, .report-title-actions, .view-toggle, .town-report, .finding-toolbar,
+  .verify-progress, .detail-backdrop, .modal-backdrop, .toast-message, .report-end-actions, .no-print, .mobile-scrim { display: none !important; }
+  .main-shell { margin: 0 !important; }
+  .page-content { padding: 0 !important; width: 100% !important; }
+  .panel, .verify-section, .legend-card, .report-alert, .coverage-card, .metric-card { box-shadow: none !important; border-width: 1.5px !important; break-inside: avoid; }
+  .report-two-col { grid-template-columns: 1fr 1fr !important; }
+  .report-content-grid { grid-template-columns: 1fr !important; }
+  .finding-row, .fact-row, .verify-item, .source-card-row { break-inside: avoid; }
+  .finding-chevron, .question-list svg { display: none; }
+  a { text-decoration: underline; }
+  .ai-note, .ai-chip { border-style: dashed !important; }
+}

@@ -1,0 +1,1090 @@
+[
+ {
+  "investigation_id": "INV-jQCjYhDKOX",
+  "title": "What should I verify before applying for the post-matric scholarship",
+  "question": "What should I verify before applying for the post-matric scholarship?",
+  "context": {
+   "year": "2026–27",
+   "location": "Madhya Pradesh",
+   "category": "Undergraduate student"
+  },
+  "coverage": 50,
+  "verdict": "Not ready to decide",
+  "blockers": [
+   {
+    "finding_id": "caste-category-eligibility",
+    "status": "missing"
+   },
+   {
+    "finding_id": "income-ceiling",
+    "status": "missing"
+   },
+   {
+    "finding_id": "required-documents-list",
+    "status": "missing"
+   }
+  ],
+  "sources": [
+   {
+    "id": "S1",
+    "name": "NSP : National Scholarship Portal",
+    "host": "scholarships.gov.in",
+    "type": "Primary",
+    "state": "Readable",
+    "date": "Mentions 2026–27",
+    "url": "https://scholarships.gov.in/",
+    "color": "blue",
+    "excerpt": "Announcements The PM YASASVI Central Sector Scheme Of Top Class Education In Schools For OBC, EBC And DNT Students is now open for receiving Fresh applications.",
+    "undated": false,
+    "note": "",
+    "live_checked": false
+   },
+   {
+    "id": "S2",
+    "name": "Post-Matric Scholarship for SC students | Department of Social Justice and Empowerment - G",
+    "host": "socialjustice.gov.in",
+    "type": "Primary",
+    "state": "Readable",
+    "date": "Mentions 2020–21",
+    "url": "https://socialjustice.gov.in/schemes/25",
+    "color": "blue",
+    "excerpt": "| # | Title | Start Publish Date | End Publish Date | FileSize | Action | |---| SCHEME OF POST MATRIC SCHOLARSHIPS TO THE STUDENTS BELONGING TO SCHEDULED CASTES",
+    "undated": false,
+    "note": "",
+    "live_checked": false
+   },
+   {
+    "id": "S3",
+    "name": "en.wikipedia.org",
+    "host": "en.wikipedia.org",
+    "type": "Unverified",
+    "state": "Blocked",
+    "date": "Could not fetch page",
+    "url": "https://en.wikipedia.org/wiki/Post_Matric_Scholarship_for_Scheduled_Castes",
+    "color": "rose",
+    "excerpt": "The site answered with an error (403).",
+    "undated": false,
+    "note": "",
+    "live_checked": false
+   }
+  ],
+  "findings": [
+   {
+    "id": "caste-category-eligibility",
+    "title": "Caste and Category Eligibility",
+    "category": "Eligibility",
+    "status": "missing",
+    "critical": true,
+    "summary": "Potential gap: none of the 2 analysed source(s) mention caste and category eligibility.",
+    "value": "Not found in supplied sources",
+    "sources": [],
+    "note": "Ensure you check the official portal guidelines to confirm if your specific category falls under the eligible groups for 2026-27.",
+    "note_is_ai": true,
+    "undated": false
+   },
+   {
+    "id": "income-ceiling",
+    "title": "Annual Income Limit",
+    "category": "Eligibility",
+    "status": "missing",
+    "critical": true,
+    "summary": "Potential gap: none of the 2 analysed source(s) mention annual income limit.",
+    "value": "Not found in supplied sources",
+    "sources": [],
+    "note": "Make sure your family income certificate is updated and meets the specific threshold set for your category.",
+    "note_is_ai": true,
+    "undated": false
+   },
+   {
+    "id": "application-deadline",
+    "title": "2026–27 Application Deadline",
+    "category": "Timeline",
+    "status": "supported",
+    "critical": true,
+    "summary": "Supported by 1 source(s); strongest: NSP : National Scholarship Portal (Primary).",
+    "value": "Closing dates vary by specific scholarship schemes on the portal.",
+    "sources": [
+     {
+      "source": "S1",
+      "value": "Closing dates vary by specific scholarship schemes on the portal.",
+      "quote": "Closing dates for student application is 31-10-2026 and closing date for institute verification is : 15-11-2026 and closing date for L2 verification is : 30/11/2026",
+      "quote_match": 100,
+      "date": "2026–27",
+      "url": "https://scholarships.gov.in/",
+      "confirmed_live": false
+     }
+    ],
+    "note": "Keep track of the portal notifications since closing dates vary by specific scholarship schemes.",
+    "note_is_ai": true,
+    "undated": false
+   },
+   {
+    "id": "aadhaar-bank-seeding",
+    "title": "Aadhaar NPCI Bank Linkage",
+    "category": "Eligibility",
+    "status": "supported",
+    "critical": true,
+    "summary": "Supported by 1 source(s); strongest: NSP : National Scholarship Portal (Primary).",
+    "value": "NPCI has launched Bharat Aadhaar Seeding Enabler platform for Aadhaar Seeding and De-seeding.",
+    "sources": [
+     {
+      "source": "S1",
+      "value": "NPCI has launched Bharat Aadhaar Seeding Enabler platform for Aadhaar Seeding and De-seeding.",
+      "quote": "NPCI has launched Bharat Aadhaar Seeding Enabler (BASE) platform to facilitate Aadhaar Seeding and De-seeding activities in self-service mode for Direct Benefit Transfer(DBT)",
+      "quote_match": 100,
+      "date": "Not specified",
+      "url": "https://scholarships.gov.in/",
+      "confirmed_live": false
+     }
+    ],
+    "note": "Ensure your bank account is actively linked with Aadhaar through NPCI to prevent disbursement failures.",
+    "note_is_ai": true,
+    "undated": true
+   },
+   {
+    "id": "required-documents-list",
+    "title": "Required Supporting Documents",
+    "category": "Documents",
+    "status": "missing",
+    "critical": true,
+    "summary": "Potential gap: none of the 2 analysed source(s) mention required supporting documents.",
+    "value": "Not found in supplied sources",
+    "sources": [],
+    "note": "Prepare digital copies of standard documents like your Aadhaar, marksheets, fee receipts, and certificates ahead of time.",
+    "note_is_ai": true,
+    "undated": false
+   },
+   {
+    "id": "official-portal-process",
+    "title": "Designated Application Portal",
+    "category": "Process",
+    "status": "supported",
+    "critical": false,
+    "summary": "Supported by 1 source(s); strongest: NSP : National Scholarship Portal (Primary).",
+    "value": "Applications are submitted through the National Scholarship Portal.",
+    "sources": [
+     {
+      "source": "S1",
+      "value": "Applications are submitted through the National Scholarship Portal.",
+      "quote": "OTR is required to apply for the scholarships on National Scholarship Portal from AY 2024-25.",
+      "quote_match": 100,
+      "date": "2026–27",
+      "url": "https://scholarships.gov.in/",
+      "confirmed_live": false
+     }
+    ],
+    "note": "Submit your application directly through the official National Scholarship Portal.",
+    "note_is_ai": true,
+    "undated": false
+   },
+   {
+    "id": "scholarship-amount-breakdown",
+    "title": "Entitled Fee and Maintenance Rates",
+    "category": "Financial",
+    "status": "missing",
+    "critical": false,
+    "summary": "Potential gap: none of the 2 analysed source(s) mention entitled fee and maintenance rates.",
+    "value": "Not found in supplied sources",
+    "sources": [],
+    "note": "Check the portal guidelines to understand what portion of your tuition fees and maintenance expenses may be covered.",
+    "note_is_ai": true,
+    "undated": false
+   },
+   {
+    "id": "institute-kyc-registration",
+    "title": "Institute Verification Status",
+    "category": "Process",
+    "status": "supported",
+    "critical": false,
+    "summary": "Supported by 1 source(s); strongest: NSP : National Scholarship Portal (Primary).",
+    "value": "Institute verification closing date is 15-11-2026 for specific schemes.",
+    "sources": [
+     {
+      "source": "S1",
+      "value": "Institute verification closing date is 15-11-2026 for specific schemes.",
+      "quote": "Closing dates for student application is 31-10-2026 and closing date for institute verification is : 15-11-2026 and closing date for L2 verification is : 30/11/2026",
+      "quote_match": 100,
+      "date": "2026–27",
+      "url": "https://scholarships.gov.in/",
+      "confirmed_live": false
+     }
+    ],
+    "note": "Confirm with your educational institution that they complete their verification process before the 15-11-2026 deadline.",
+    "note_is_ai": true,
+    "undated": false
+   }
+  ],
+  "key_facts": [
+   {
+    "finding_id": "caste-category-eligibility",
+    "title": "Caste and Category Eligibility",
+    "value": "Not found in supplied sources",
+    "sources": []
+   },
+   {
+    "finding_id": "income-ceiling",
+    "title": "Annual Income Limit",
+    "value": "Not found in supplied sources",
+    "sources": []
+   },
+   {
+    "finding_id": "application-deadline",
+    "title": "2026–27 Application Deadline",
+    "value": "Closing dates vary by specific scholarship schemes on the portal.",
+    "sources": [
+     "S1"
+    ]
+   },
+   {
+    "finding_id": "aadhaar-bank-seeding",
+    "title": "Aadhaar NPCI Bank Linkage",
+    "value": "NPCI has launched Bharat Aadhaar Seeding Enabler platform for Aadhaar Seeding and De-seeding.",
+    "sources": [
+     "S1"
+    ]
+   },
+   {
+    "finding_id": "required-documents-list",
+    "title": "Required Supporting Documents",
+    "value": "Not found in supplied sources",
+    "sources": []
+   },
+   {
+    "finding_id": "official-portal-process",
+    "title": "Designated Application Portal",
+    "value": "Applications are submitted through the National Scholarship Portal.",
+    "sources": [
+     "S1"
+    ]
+   },
+   {
+    "finding_id": "scholarship-amount-breakdown",
+    "title": "Entitled Fee and Maintenance Rates",
+    "value": "Not found in supplied sources",
+    "sources": []
+   },
+   {
+    "finding_id": "institute-kyc-registration",
+    "title": "Institute Verification Status",
+    "value": "Institute verification closing date is 15-11-2026 for specific schemes.",
+    "sources": [
+     "S1"
+    ]
+   }
+  ],
+  "unanswered_questions": [
+   {
+    "finding_id": "caste-category-eligibility",
+    "question": "Which specific caste and category groups are eligible for this post-matric scholarship scheme in Madhya Pradesh for 2026-27?"
+   },
+   {
+    "finding_id": "income-ceiling",
+    "question": "What is the maximum annual family income limit required to qualify for the scholarship?"
+   },
+   {
+    "finding_id": "required-documents-list",
+    "question": "What exact documents (such as income certificate, caste certificate, or fee receipt) must be uploaded with the application?"
+   },
+   {
+    "finding_id": "scholarship-amount-breakdown",
+    "question": "What are the exact fee reimbursement and maintenance allowance rates provided under this scholarship?"
+   }
+  ],
+  "checklist": [
+   {
+    "id": "c1",
+    "text": "Verify your caste and category eligibility for the 2026-27 scholarship scheme.",
+    "why": "The finding status is missing.",
+    "where": "National Scholarship Portal",
+    "critical": true
+   },
+   {
+    "id": "c2",
+    "text": "Check the annual family income limit applicable to your category for the scholarship.",
+    "why": "The finding status is missing.",
+    "where": "National Scholarship Portal",
+    "critical": true
+   },
+   {
+    "id": "c3",
+    "text": "Confirm the list of required supporting documents needed for your application.",
+    "why": "The finding status is missing.",
+    "where": "National Scholarship Portal",
+    "critical": true
+   },
+   {
+    "id": "c4",
+    "text": "Check whether your bank account is seeded with Aadhaar via the NPCI platform.",
+    "why": "The finding status is supported, but Aadhaar NPCI bank linkage is critical to verify.",
+    "where": "Bharat Aadhaar Seeding Enabler platform",
+    "critical": true
+   },
+   {
+    "id": "c5",
+    "text": "Verify the exact application deadline for your specific scholarship scheme on the portal.",
+    "why": "The finding status is supported, but closing dates vary.",
+    "where": "National Scholarship Portal",
+    "critical": true
+   }
+  ],
+  "generated_at": "2026-10-30T19:49:20+00:00",
+  "mode": "live",
+  "warnings": [],
+  "source_dna": {
+   "pairs": [
+    {
+     "a": "S1",
+     "b": "S2",
+     "overlap": 0,
+     "relation": "independent",
+     "shared_sentences": [],
+     "shared_count": 0
+    }
+   ],
+   "clusters": [],
+   "note": "No source copies another; agreement between them counts as independent.",
+   "illustrative": false
+  },
+  "demo_run": true,
+  "demo_topic": "Scholarship"
+ },
+ {
+  "investigation_id": "INV-2k9icojSyX",
+  "title": "What are the eligibility rules and documents for this university…",
+  "question": "What are the eligibility rules and documents for this university admission?",
+  "context": {
+   "year": "2026–27",
+   "location": "Delhi",
+   "category": "Undergraduate student"
+  },
+  "coverage": 0,
+  "verdict": "Insufficient evidence",
+  "blockers": [
+   {
+    "finding_id": "academic-eligibility",
+    "status": "missing"
+   },
+   {
+    "finding_id": "age-nationality",
+    "status": "missing"
+   },
+   {
+    "finding_id": "identity-proof",
+    "status": "missing"
+   },
+   {
+    "finding_id": "academic-certificates",
+    "status": "missing"
+   },
+   {
+    "finding_id": "category-certificate",
+    "status": "missing"
+   },
+   {
+    "finding_id": "admission-deadline",
+    "status": "missing"
+   },
+   {
+    "finding_id": "application-process",
+    "status": "missing"
+   }
+  ],
+  "sources": [
+   {
+    "id": "S1",
+    "name": "COMMON UNIVERSITY ENTRANCE TEST (CUET-UG) 2025 | CUET-UG 2025 | India",
+    "host": "cuet.nta.nic.in",
+    "type": "Primary",
+    "state": "Readable",
+    "date": "",
+    "url": "https://cuet.nta.nic.in/",
+    "color": "blue",
+    "excerpt": "LATEST NEWS - List of toppers of CUET (UG) – 2026 - NTA Declares the Result/NTA Scores of Common University Entrance Test (UG) – 2026 – reg. - Final Answer Keys",
+    "undated": true,
+    "note": "",
+    "live_checked": false
+   },
+   {
+    "id": "S2",
+    "name": "Home - Delhi University",
+    "host": "du.ac.in",
+    "type": "Institutional",
+    "state": "Readable",
+    "date": "",
+    "url": "https://www.du.ac.in/",
+    "color": "violet",
+    "excerpt": "If your complaint has resulted in an eligible amount being frozen in the beneficiary account, you may be able to claim it through the Money Restoration Module (",
+    "undated": true,
+    "note": "",
+    "live_checked": false
+   },
+   {
+    "id": "S3",
+    "name": "Welcome to UGC, New Delhi, India",
+    "host": "ugc.gov.in",
+    "type": "Primary",
+    "state": "Readable",
+    "date": "",
+    "url": "https://www.ugc.gov.in/",
+    "color": "blue",
+    "excerpt": "Key Initiatives - Women Leaders: Shaping Academic Excellence for Viksit Bharat @ 2047 - Compendium of UGC Regulations 1957-2023 - List of Eligible Indian instit",
+    "undated": true,
+    "note": "",
+    "live_checked": false
+   }
+  ],
+  "findings": [
+   {
+    "id": "academic-eligibility",
+    "title": "Academic Eligibility Criteria",
+    "category": "Eligibility",
+    "status": "missing",
+    "critical": true,
+    "summary": "Potential gap: none of the 3 analysed source(s) mention academic eligibility criteria.",
+    "value": "Not found in supplied sources",
+    "sources": [],
+    "note": "Check the official Delhi University bulletin once released, as subject-specific requirements may vary.",
+    "note_is_ai": true,
+    "undated": false
+   },
+   {
+    "id": "age-nationality",
+    "title": "Age and Nationality Rules",
+    "category": "Eligibility",
+    "status": "missing",
+    "critical": true,
+    "summary": "Potential gap: none of the 3 analysed source(s) mention age and nationality rules.",
+    "value": "Not found in supplied sources",
+    "sources": [],
+    "note": "Review general university guidelines to ensure you meet all baseline nationality and age criteria.",
+    "note_is_ai": true,
+    "undated": false
+   },
+   {
+    "id": "identity-proof",
+    "title": "Identity Proof Documents",
+    "category": "Documents",
+    "status": "missing",
+    "critical": true,
+    "summary": "Potential gap: none of the 3 analysed source(s) mention identity proof documents.",
+    "value": "Not found in supplied sources",
+    "sources": [],
+    "note": "Keep standard government-issued photo identification ready for digital uploads.",
+    "note_is_ai": true,
+    "undated": false
+   },
+   {
+    "id": "academic-certificates",
+    "title": "Qualifying Examination Certificates",
+    "category": "Documents",
+    "status": "missing",
+    "critical": true,
+    "summary": "Potential gap: none of the 3 analysed source(s) mention qualifying examination certificates.",
+    "value": "Not found in supplied sources",
+    "sources": [],
+    "note": "Ensure your mark sheets and qualifying certificates are attested or ready in digital format.",
+    "note_is_ai": true,
+    "undated": false
+   },
+   {
+    "id": "category-certificate",
+    "title": "Reserved Category Certificate",
+    "category": "Documents",
+    "status": "missing",
+    "critical": true,
+    "summary": "Potential gap: none of the 3 analysed source(s) mention reserved category certificate.",
+    "value": "Not found in supplied sources",
+    "sources": [],
+    "note": "Verify that your category certificate is issued by the competent authority and adheres to current guidelines.",
+    "note_is_ai": true,
+    "undated": false
+   },
+   {
+    "id": "admission-deadline",
+    "title": "Application Submission Deadline",
+    "category": "Timeline",
+    "status": "missing",
+    "critical": true,
+    "summary": "Potential gap: none of the 3 analysed source(s) mention application submission deadline.",
+    "value": "Not found in supplied sources",
+    "sources": [],
+    "note": "Keep track of announcements on official portals to avoid missing application windows.",
+    "note_is_ai": true,
+    "undated": false
+   },
+   {
+    "id": "application-process",
+    "title": "Step-by-Step Application Process",
+    "category": "Process",
+    "status": "missing",
+    "critical": true,
+    "summary": "Potential gap: none of the 3 analysed source(s) mention step-by-step application process.",
+    "value": "Not found in supplied sources",
+    "sources": [],
+    "note": "Follow the official registration portal step-by-step to prevent submission errors.",
+    "note_is_ai": true,
+    "undated": false
+   },
+   {
+    "id": "admission-fee",
+    "title": "Application and Tuition Fees",
+    "category": "Financial",
+    "status": "missing",
+    "critical": false,
+    "summary": "Potential gap: none of the 3 analysed source(s) mention application and tuition fees.",
+    "value": "Not found in supplied sources",
+    "sources": [],
+    "note": "Confirm accepted payment methods on the official portal before initiating transactions.",
+    "note_is_ai": true,
+    "undated": false
+   },
+   {
+    "id": "admission-helpdesk",
+    "title": "Official Contact and Helpdesk",
+    "category": "Contact",
+    "status": "missing",
+    "critical": false,
+    "summary": "Potential gap: none of the 3 analysed source(s) mention official contact and helpdesk.",
+    "value": "Not found in supplied sources",
+    "sources": [],
+    "note": "Use official helpdesk emails or phone numbers listed on institutional domains for verified support.",
+    "note_is_ai": true,
+    "undated": false
+   }
+  ],
+  "key_facts": [
+   {
+    "finding_id": "academic-eligibility",
+    "title": "Academic Eligibility Criteria",
+    "value": "Not found in supplied sources",
+    "sources": []
+   },
+   {
+    "finding_id": "age-nationality",
+    "title": "Age and Nationality Rules",
+    "value": "Not found in supplied sources",
+    "sources": []
+   },
+   {
+    "finding_id": "identity-proof",
+    "title": "Identity Proof Documents",
+    "value": "Not found in supplied sources",
+    "sources": []
+   },
+   {
+    "finding_id": "academic-certificates",
+    "title": "Qualifying Examination Certificates",
+    "value": "Not found in supplied sources",
+    "sources": []
+   },
+   {
+    "finding_id": "category-certificate",
+    "title": "Reserved Category Certificate",
+    "value": "Not found in supplied sources",
+    "sources": []
+   },
+   {
+    "finding_id": "admission-deadline",
+    "title": "Application Submission Deadline",
+    "value": "Not found in supplied sources",
+    "sources": []
+   },
+   {
+    "finding_id": "application-process",
+    "title": "Step-by-Step Application Process",
+    "value": "Not found in supplied sources",
+    "sources": []
+   },
+   {
+    "finding_id": "admission-fee",
+    "title": "Application and Tuition Fees",
+    "value": "Not found in supplied sources",
+    "sources": []
+   },
+   {
+    "finding_id": "admission-helpdesk",
+    "title": "Official Contact and Helpdesk",
+    "value": "Not found in supplied sources",
+    "sources": []
+   }
+  ],
+  "unanswered_questions": [
+   {
+    "finding_id": "academic-eligibility",
+    "question": "What are the specific academic eligibility criteria and minimum percentage requirements for undergraduate admission in 2026-27?"
+   },
+   {
+    "finding_id": "age-nationality",
+    "question": "Are there any specific age limits or nationality restrictions for undergraduate applicants?"
+   },
+   {
+    "finding_id": "identity-proof",
+    "question": "Which government-issued identity proof documents are officially accepted for verification?"
+   },
+   {
+    "finding_id": "academic-certificates",
+    "question": "What qualifying examination certificates must be uploaded during the application process?"
+   },
+   {
+    "finding_id": "category-certificate",
+    "question": "What format and issuing authority are required for reserved category certificates?"
+   },
+   {
+    "finding_id": "admission-deadline",
+    "question": "What is the final application submission deadline for the 2026-27 admission cycle?"
+   },
+   {
+    "finding_id": "application-process",
+    "question": "What is the step-by-step application process for undergraduate admission?"
+   },
+   {
+    "finding_id": "admission-fee",
+    "question": "What are the exact application and tuition fee amounts for undergraduate programs?"
+   },
+   {
+    "finding_id": "admission-helpdesk",
+    "question": "What is the official contact number or helpdesk email for admission inquiries?"
+   }
+  ],
+  "checklist": [
+   {
+    "id": "c1",
+    "text": "Check official Delhi University undergraduate admission guidelines for the 2026-27 cycle.",
+    "why": "Academic Eligibility Criteria has a status of missing.",
+    "where": "Delhi University admissions portal",
+    "critical": true
+   },
+   {
+    "id": "c2",
+    "text": "Verify required identity proof and qualifying examination certificates on the CUET-UG information bulletin.",
+    "why": "Identity Proof Documents and Qualifying Examination Certificates have a status of missing.",
+    "where": "CUET-UG official website",
+    "critical": true
+   },
+   {
+    "id": "c3",
+    "text": "Confirm age and nationality eligibility rules for undergraduate applicants in Delhi institutions.",
+    "why": "Age and Nationality Rules has a status of missing.",
+    "where": "University Grants Commission portal",
+    "critical": true
+   },
+   {
+    "id": "c4",
+    "text": "Review reserved category certificate formats and requirements directly with university admission authorities.",
+    "why": "Reserved Category Certificate has a status of missing.",
+    "where": "Delhi University admission office",
+    "critical": true
+   },
+   {
+    "id": "c5",
+    "text": "Check application submission deadlines, fee structures, and the step-by-step application process for 2026-27.",
+    "why": "Application Submission Deadline and Step-by-Step Application Process have a status of missing.",
+    "where": "Delhi University admissions portal",
+    "critical": true
+   }
+  ],
+  "generated_at": "2026-10-30T19:49:35+00:00",
+  "mode": "live",
+  "warnings": [],
+  "source_dna": {
+   "pairs": [
+    {
+     "a": "S1",
+     "b": "S2",
+     "overlap": 0,
+     "relation": "independent",
+     "shared_sentences": [],
+     "shared_count": 0
+    },
+    {
+     "a": "S1",
+     "b": "S3",
+     "overlap": 0,
+     "relation": "independent",
+     "shared_sentences": [],
+     "shared_count": 0
+    },
+    {
+     "a": "S2",
+     "b": "S3",
+     "overlap": 0,
+     "relation": "independent",
+     "shared_sentences": [],
+     "shared_count": 0
+    }
+   ],
+   "clusters": [],
+   "note": "No source copies another; agreement between them counts as independent.",
+   "illustrative": false
+  },
+  "demo_run": true,
+  "demo_topic": "University admission"
+ },
+ {
+  "investigation_id": "INV-7xslFzgM2z",
+  "title": "What should I check before accepting this internship offer",
+  "question": "What should I check before accepting this internship offer?",
+  "context": {
+   "year": "2026–27",
+   "location": "India-wide",
+   "category": "Undergraduate student"
+  },
+  "coverage": 38,
+  "verdict": "Not ready to decide",
+  "blockers": [
+   {
+    "finding_id": "acceptance-deadline",
+    "status": "missing"
+   },
+   {
+    "finding_id": "start-end-dates",
+    "status": "missing"
+   }
+  ],
+  "sources": [
+   {
+    "id": "S1",
+    "name": "National Internship Portal by AICTE, Ministry of Education, Government of India. Internshi",
+    "host": "internship.aicte-india.org",
+    "type": "Secondary",
+    "state": "Readable",
+    "date": "Mentions 2027",
+    "url": "https://internship.aicte-india.org/",
+    "color": "amber",
+    "excerpt": "Make your profile once Super-light sign-up, college auto-filled from the AICTE/AISHE database, skills in your own words. No CV formatting pain. भारत सरकार · Gov",
+    "undated": false,
+    "note": "",
+    "live_checked": false
+   },
+   {
+    "id": "S2",
+    "name": "NcsNewWebsite",
+    "host": "ncs.gov.in",
+    "type": "Primary",
+    "state": "Readable",
+    "date": "",
+    "url": "https://ncs.gov.in/",
+    "color": "blue",
+    "excerpt": "Registered Jobseekers Active Employers 5.9 M Job Applications Submitted 1.5 M Total Job Listings 3.6 M Active Vacancies 3.9 L Empowering India's workforce with ",
+    "undated": true,
+    "note": "",
+    "live_checked": false
+   },
+   {
+    "id": "S3",
+    "name": "MyGov.in | MyGov: A Platform for Citizen Engagement towards Good Governance in India",
+    "host": "mygov.in",
+    "type": "Secondary",
+    "state": "Readable",
+    "date": "Date Oct 13, 2026",
+    "url": "https://www.mygov.in/",
+    "color": "amber",
+    "excerpt": "PM GatiShakti - Planning of Viksit Bharat The Logistics Division, DPIIT, Ministry of Commerce and Industry, in collaboration with MyGov, invites citizens to tak",
+    "undated": false,
+    "note": "",
+    "live_checked": false
+   }
+  ],
+  "findings": [
+   {
+    "id": "stipend-details",
+    "title": "Stipend and Benefits",
+    "category": "Financial",
+    "status": "supported",
+    "critical": false,
+    "summary": "Supported by 1 source(s); strongest: National Internship Portal by AICTE, Ministry of Education, Government of India. Internshi (Secondary).",
+    "value": "Stipends are declared upfront and paid monthly to your bank account.",
+    "sources": [
+     {
+      "source": "S1",
+      "value": "Stipends are declared upfront and paid monthly to your bank account.",
+      "quote": "Stipends are declared upfront and paid to your bank account — never negotiated in DMs.",
+      "quote_match": 100,
+      "date": "Not specified",
+      "url": "https://internship.aicte-india.org/",
+      "confirmed_live": false
+     }
+    ],
+    "note": "Make sure to confirm the exact monthly stipend amount and ensure your bank account details are correctly linked.",
+    "note_is_ai": true,
+    "undated": true
+   },
+   {
+    "id": "working-hours",
+    "title": "Working Hours and Location",
+    "category": "Process",
+    "status": "missing",
+    "critical": false,
+    "summary": "Potential gap: none of the 3 analysed source(s) mention working hours and location.",
+    "value": "Not found in supplied sources",
+    "sources": [],
+    "note": "Check the official guidelines or ask the authority. Not finding it here does not mean it does not exist.",
+    "note_is_ai": true,
+    "undated": false
+   },
+   {
+    "id": "acceptance-deadline",
+    "title": "Offer Acceptance Deadline",
+    "category": "Timeline",
+    "status": "missing",
+    "critical": true,
+    "summary": "Potential gap: none of the 3 analysed source(s) mention offer acceptance deadline.",
+    "value": "Not found in supplied sources",
+    "sources": [],
+    "note": "Check the official guidelines or ask the authority. Not finding it here does not mean it does not exist.",
+    "note_is_ai": true,
+    "undated": false
+   },
+   {
+    "id": "start-end-dates",
+    "title": "Internship Duration",
+    "category": "Timeline",
+    "status": "missing",
+    "critical": true,
+    "summary": "Potential gap: none of the 3 analysed source(s) mention internship duration.",
+    "value": "Not found in supplied sources",
+    "sources": [],
+    "note": "Check the official guidelines or ask the authority. Not finding it here does not mean it does not exist.",
+    "note_is_ai": true,
+    "undated": false
+   },
+   {
+    "id": "academic-credits",
+    "title": "College Credit Approval",
+    "category": "Eligibility",
+    "status": "supported",
+    "critical": true,
+    "summary": "Supported by 1 source(s); strongest: National Internship Portal by AICTE, Ministry of Education, Government of India. Internshi (Secondary).",
+    "value": "Credits earned are deposited into your Academic Bank of Credits account.",
+    "sources": [
+     {
+      "source": "S1",
+      "value": "Credits earned are deposited into your Academic Bank of Credits account.",
+      "quote": "Credits earned on a completed internship are deposited into your Academic Bank of Credits account against your APAAR / ABC ID.",
+      "quote_match": 100,
+      "date": "Not specified",
+      "url": "https://internship.aicte-india.org/",
+      "confirmed_live": false
+     }
+    ],
+    "note": "Verify with your college administration beforehand whether they accept credits deposited into your Academic Bank of Credits account for your specific degree requirements.",
+    "note_is_ai": true,
+    "undated": true
+   },
+   {
+    "id": "nda-ip-terms",
+    "title": "NDA and IP Policies",
+    "category": "Documents",
+    "status": "missing",
+    "critical": false,
+    "summary": "Potential gap: none of the 3 analysed source(s) mention nda and ip policies.",
+    "value": "Not found in supplied sources",
+    "sources": [],
+    "note": "Check the official guidelines or ask the authority. Not finding it here does not mean it does not exist.",
+    "note_is_ai": true,
+    "undated": false
+   },
+   {
+    "id": "conversion-policy",
+    "title": "PPO Conversion Criteria",
+    "category": "Other",
+    "status": "missing",
+    "critical": false,
+    "summary": "Potential gap: none of the 3 analysed source(s) mention ppo conversion criteria.",
+    "value": "Not found in supplied sources",
+    "sources": [],
+    "note": "Check the official guidelines or ask the authority. Not finding it here does not mean it does not exist.",
+    "note_is_ai": true,
+    "undated": false
+   },
+   {
+    "id": "point-of-contact",
+    "title": "HR Contact Information",
+    "category": "Contact",
+    "status": "conflict",
+    "critical": false,
+    "summary": "Possible conflict: sources for 2026–27 give different values (HR/Helpdesk contact is available via phone and email at internship@aicte-india.org. / NCS support email is support.ncs@gov.in and toll-free helpline is 1514.).",
+    "value": "NCS support email is support.ncs@gov.in and toll-free helpline is 1514.",
+    "sources": [
+     {
+      "source": "S2",
+      "value": "NCS support email is support.ncs@gov.in and toll-free helpline is 1514.",
+      "quote": "You may contact NCS at support.ncs@gov.in or on the toll-free helpline 1514.",
+      "quote_match": 100,
+      "date": "Not specified",
+      "url": "https://ncs.gov.in/",
+      "confirmed_live": false
+     },
+     {
+      "source": "S1",
+      "value": "HR/Helpdesk contact is available via phone and email at internship@aicte-india.org.",
+      "quote": "The national helpdesk answers in all 22 scheduled languages, Monday to Friday. 011-29581423 Mon–Fri · 9am–6pm IST 07314624949 IVR helpline internship@aicte-india.org Replies within 48 hours",
+      "quote_match": 97,
+      "date": "Not specified",
+      "url": "https://internship.aicte-india.org/",
+      "confirmed_live": false
+     }
+    ],
+    "note": "You might want to keep both the AICTE internship email and the NCS helpline handy until you receive a definitive answer from your specific HR contact.",
+    "note_is_ai": true,
+    "undated": true
+   }
+  ],
+  "key_facts": [
+   {
+    "finding_id": "stipend-details",
+    "title": "Stipend and Benefits",
+    "value": "Stipends are declared upfront and paid monthly to your bank account.",
+    "sources": [
+     "S1"
+    ]
+   },
+   {
+    "finding_id": "working-hours",
+    "title": "Working Hours and Location",
+    "value": "Not found in supplied sources",
+    "sources": []
+   },
+   {
+    "finding_id": "acceptance-deadline",
+    "title": "Offer Acceptance Deadline",
+    "value": "Not found in supplied sources",
+    "sources": []
+   },
+   {
+    "finding_id": "start-end-dates",
+    "title": "Internship Duration",
+    "value": "Not found in supplied sources",
+    "sources": []
+   },
+   {
+    "finding_id": "academic-credits",
+    "title": "College Credit Approval",
+    "value": "Credits earned are deposited into your Academic Bank of Credits account.",
+    "sources": [
+     "S1"
+    ]
+   },
+   {
+    "finding_id": "nda-ip-terms",
+    "title": "NDA and IP Policies",
+    "value": "Not found in supplied sources",
+    "sources": []
+   },
+   {
+    "finding_id": "conversion-policy",
+    "title": "PPO Conversion Criteria",
+    "value": "Not found in supplied sources",
+    "sources": []
+   },
+   {
+    "finding_id": "point-of-contact",
+    "title": "HR Contact Information",
+    "value": "NCS support email is support.ncs@gov.in and toll-free helpline is 1514.",
+    "sources": [
+     "S2",
+     "S1"
+    ]
+   }
+  ],
+  "unanswered_questions": [
+   {
+    "finding_id": "working-hours",
+    "question": "What are the expected daily working hours and is the internship remote, hybrid, or in-office?"
+   },
+   {
+    "finding_id": "acceptance-deadline",
+    "question": "What is the exact deadline date and time to accept or decline the internship offer?"
+   },
+   {
+    "finding_id": "start-end-dates",
+    "question": "What are the official start and end dates for the internship period?"
+   },
+   {
+    "finding_id": "nda-ip-terms",
+    "question": "Are there any NDA or intellectual property agreements that need to be signed?"
+   },
+   {
+    "finding_id": "conversion-policy",
+    "question": "What are the specific criteria and evaluation process for converting the internship into a permanent job offer (PPO)?"
+   },
+   {
+    "finding_id": "point-of-contact",
+    "question": "Which specific helpdesk email and phone number should be used for urgent queries?"
+   }
+  ],
+  "checklist": [
+   {
+    "id": "c1",
+    "text": "Confirm the start and end dates of the internship directly with the offering organization before acceptance.",
+    "why": "The finding status is missing.",
+    "where": "Offering organization HR department",
+    "critical": true
+   },
+   {
+    "id": "c2",
+    "text": "Verify the exact deadline to accept the internship offer.",
+    "why": "The finding status is missing.",
+    "where": "Offering organization HR department",
+    "critical": true
+   },
+   {
+    "id": "c3",
+    "text": "Clarify the correct point of contact for support, as multiple helplines are listed.",
+    "why": "The finding status is conflict.",
+    "where": "AICTE Internship Portal or National Career Service portal",
+    "critical": false
+   },
+   {
+    "id": "c4",
+    "text": "Check the exact working hours, weekly schedule, and location requirements.",
+    "why": "The finding status is missing.",
+    "where": "Offering organization HR department",
+    "critical": false
+   },
+   {
+    "id": "c5",
+    "text": "Review the non-disclosure agreement (NDA) and intellectual property (IP) policies.",
+    "why": "The finding status is missing.",
+    "where": "Offering organization HR department",
+    "critical": false
+   }
+  ],
+  "generated_at": "2026-10-30T19:49:51+00:00",
+  "mode": "live",
+  "warnings": [],
+  "source_dna": {
+   "pairs": [
+    {
+     "a": "S1",
+     "b": "S2",
+     "overlap": 0,
+     "relation": "independent",
+     "shared_sentences": [],
+     "shared_count": 0
+    },
+    {
+     "a": "S1",
+     "b": "S3",
+     "overlap": 0,
+     "relation": "independent",
+     "shared_sentences": [],
+     "shared_count": 0
+    },
+    {
+     "a": "S2",
+     "b": "S3",
+     "overlap": 0,
+     "relation": "independent",
+     "shared_sentences": [],
+     "shared_count": 0
+    }
+   ],
+   "clusters": [],
+   "note": "No source copies another; agreement between them counts as independent.",
+   "illustrative": false
+  },
+  "demo_run": true,
+  "demo_topic": "Internship offer"
+ }
+]

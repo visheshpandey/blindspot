@@ -1,0 +1,485 @@
+{
+ "investigation_id": "INV-lvFIA2kQJd",
+ "title": "Before applying for the post-matric scholarship, what should I…",
+ "question": "Before applying for the post-matric scholarship, what should I verify about eligibility, domicile, income documents, the deadline, the scholarship amount and renewal?",
+ "context": {
+  "year": "2026–27",
+  "location": "Madhya Pradesh",
+  "category": "Undergraduate student"
+ },
+ "coverage": 83,
+ "verdict": "Not ready to decide",
+ "blockers": [
+  {
+   "finding_id": "domicile-requirement",
+   "status": "unverified"
+  },
+  {
+   "finding_id": "income-documents",
+   "status": "conflict"
+  },
+  {
+   "finding_id": "renewal-criteria",
+   "status": "missing"
+  }
+ ],
+ "sources": [
+  {
+   "id": "S1",
+   "name": "Post-Matric Scholarship Notice 2026-27 (Trap Lab Department of Welfare)",
+   "host": "official.traplab.example",
+   "type": "Primary",
+   "state": "Readable",
+   "date": "Mentions 2026–27",
+   "url": "https://official.traplab.example/notice-2026-27",
+   "color": "blue",
+   "excerpt": "Blindspot Trap Lab test page. Invented for a demo; not real scholarship guidance. Post-Matric Scholarship Notice 2026-27 (Trap Lab Department of Welfare) Applic",
+   "undated": false,
+   "note": "",
+   "live_checked": false
+  },
+  {
+   "id": "S2",
+   "name": "Post-Matric Scholarship Notice 2025-26 (Trap Lab Department of Welfare)",
+   "host": "official.traplab.example",
+   "type": "Primary",
+   "state": "Readable",
+   "date": "Mentions 2025–26",
+   "url": "https://official.traplab.example/notice-2025-26",
+   "color": "blue",
+   "excerpt": "Blindspot Trap Lab test page. Invented for a demo; not real scholarship guidance. Post-Matric Scholarship Notice 2025-26 (Trap Lab Department of Welfare) Applic",
+   "undated": false,
+   "note": "",
+   "live_checked": false
+  },
+  {
+   "id": "S3",
+   "name": "Post Matric Scholarship 2026-27: Easy Guide (Trap Lab Study Blog)",
+   "host": "blog.traplab.example",
+   "type": "Secondary",
+   "state": "Readable",
+   "date": "Mentions 2026–27",
+   "url": "https://blog.traplab.example/scholarship-guide",
+   "color": "amber",
+   "excerpt": "Blindspot Trap Lab test page. Invented for a demo; not real scholarship guidance. Good news for students applying in 2026-27! The post matric scholarship proces",
+   "undated": false,
+   "note": "",
+   "live_checked": false
+  },
+  {
+   "id": "S4",
+   "name": "Scholarship update for 2026-27 students (Trap Lab Daily News)",
+   "host": "news.traplab.example",
+   "type": "Secondary",
+   "state": "Readable",
+   "date": "Mentions 2026–27",
+   "url": "https://news.traplab.example/scholarship-news",
+   "color": "amber",
+   "excerpt": "Blindspot Trap Lab test page. Invented for a demo; not real scholarship guidance. The post matric scholarship process has become very simple this year and many ",
+   "undated": false,
+   "note": "",
+   "live_checked": false
+  },
+  {
+   "id": "S5",
+   "name": "Do I need a domicile certificate? (Trap Lab Student Forum)",
+   "host": "forum.traplab.example",
+   "type": "Secondary",
+   "state": "Readable",
+   "date": "Mentions 2026–27",
+   "url": "https://forum.traplab.example/thread-domicile",
+   "color": "amber",
+   "excerpt": "Blindspot Trap Lab test page. Invented for a demo; not real scholarship guidance. Question from a student: do I need a domicile certificate for the post-matric ",
+   "undated": false,
+   "note": "",
+   "live_checked": false
+  }
+ ],
+ "findings": [
+  {
+   "id": "eligibility-rules",
+   "title": "Undergraduate Eligibility Criteria",
+   "category": "Eligibility",
+   "status": "supported",
+   "critical": true,
+   "summary": "Supported by 1 source(s); strongest: Post-Matric Scholarship Notice 2026-27 (Trap Lab Department of Welfare) (Primary).",
+   "value": "Undergraduate students with parental annual income up to Rs 2,50,000 are eligible.",
+   "sources": [
+    {
+     "source": "S1",
+     "value": "Undergraduate students with parental annual income up to Rs 2,50,000 are eligible.",
+     "quote": "Students whose parents' or guardians' annual income from all sources does not exceed Rs 2,50,000 are eligible for the 2026-27 session.",
+     "quote_match": 100,
+     "date": "2026–27",
+     "url": "https://official.traplab.example/notice-2026-27",
+     "confirmed_live": false
+    },
+    {
+     "source": "S2",
+     "value": "Parents' annual income must not exceed Rs 2,50,000.",
+     "quote": "Students whose parents' annual income does not exceed Rs 2,50,000 are eligible for the 2025-26 session.",
+     "quote_match": 100,
+     "date": "2025–26",
+     "url": "https://official.traplab.example/notice-2025-26",
+     "confirmed_live": false
+    }
+   ],
+   "note": "Ensure your parental annual income is calculated accurately to remain under the Rs 2,50,000 threshold. You might want to keep your recent tax or salary documents ready.",
+   "note_is_ai": true,
+   "undated": false
+  },
+  {
+   "id": "domicile-requirement",
+   "title": "Madhya Pradesh Domicile Status",
+   "category": "Eligibility",
+   "status": "unverified",
+   "critical": true,
+   "summary": "Evidence found only for a different state (Rajasthan), not Madhya Pradesh.",
+   "value": "Applicants must upload a Rajasthan domicile certificate. (for Rajasthan)",
+   "sources": [
+    {
+     "source": "S5",
+     "value": "Applicants must upload a Rajasthan domicile certificate.",
+     "quote": "In Rajasthan, applicants for the 2026-27 post-matric scholarship must upload a Rajasthan domicile certificate, otherwise the application is rejected.",
+     "quote_match": 100,
+     "date": "2026–27",
+     "url": "https://forum.traplab.example/thread-domicile",
+     "confirmed_live": false
+    }
+   ],
+   "note": "Double-check whether Madhya Pradesh applicants need a local state domicile or if the Rajasthan reference was an error in the source. Consulting local welfare authorities can prevent rejection.",
+   "note_is_ai": true,
+   "undated": false
+  },
+  {
+   "id": "income-documents",
+   "title": "Required Income Documents",
+   "category": "Documents",
+   "status": "conflict",
+   "critical": true,
+   "summary": "Possible conflict: sources for 2026–27 give different values (An income certificate issued by the Tehsildar is mandatory. / A self-declaration of income is enough and no income certificate is needed.).",
+   "value": "An income certificate issued by the Tehsildar is mandatory.",
+   "sources": [
+    {
+     "source": "S1",
+     "value": "An income certificate issued by the Tehsildar is mandatory.",
+     "quote": "An income certificate issued by the Tehsildar for the 2026-27 session is mandatory.",
+     "quote_match": 100,
+     "date": "2026–27",
+     "url": "https://official.traplab.example/notice-2026-27",
+     "confirmed_live": false
+    },
+    {
+     "source": "S3",
+     "value": "A self-declaration of income is enough and no income certificate is needed.",
+     "quote": "For the 2026-27 session you do not need to visit the tehsil office at all, because a self-declaration of income is enough and no income certificate is needed.",
+     "quote_match": 100,
+     "date": "2026–27",
+     "url": "https://blog.traplab.example/scholarship-guide",
+     "confirmed_live": false
+    },
+    {
+     "source": "S4",
+     "value": "Self-declaration of income is enough and no income certificate is needed.",
+     "quote": "For the 2026-27 session you do not need to visit the tehsil office at all, because a self-declaration of income is enough and no income certificate is needed.",
+     "quote_match": 100,
+     "date": "2026–27",
+     "url": "https://news.traplab.example/scholarship-news",
+     "confirmed_live": false
+    }
+   ],
+   "note": "Because sources conflict on whether a Tehsildar certificate or a self-declaration is needed, it is safer to obtain the Tehsildar certificate in advance. You might also want to check if the portal specifically requires the official certificate upload.",
+   "note_is_ai": true,
+   "undated": false
+  },
+  {
+   "id": "application-deadline",
+   "title": "Application Deadline 2026-27",
+   "category": "Timeline",
+   "status": "supported",
+   "critical": true,
+   "summary": "Supported by 1 source(s); strongest: Post-Matric Scholarship Notice 2026-27 (Trap Lab Department of Welfare) (Primary).",
+   "value": "30 November 2026",
+   "sources": [
+    {
+     "source": "S1",
+     "value": "30 November 2026",
+     "quote": "The last date to submit the online application for the 2026-27 session is 30 November 2026.",
+     "quote_match": 100,
+     "date": "2026–27",
+     "url": "https://official.traplab.example/notice-2026-27",
+     "confirmed_live": false
+    },
+    {
+     "source": "S2",
+     "value": "31 October 2025",
+     "quote": "The last date to submit the online application for the 2025-26 session is 31 October 2025.",
+     "quote_match": 100,
+     "date": "2025–26",
+     "url": "https://official.traplab.example/notice-2025-26",
+     "confirmed_live": false
+    }
+   ],
+   "note": "Note that the deadline is 30 November 2026, but submitting well before this date is advisable to avoid last-minute portal slowdowns.",
+   "note_is_ai": true,
+   "undated": false
+  },
+  {
+   "id": "scholarship-amount",
+   "title": "Scholarship Amount or Rates",
+   "category": "Financial",
+   "status": "outdated",
+   "critical": false,
+   "summary": "Possibly outdated: the only evidence belongs to an earlier cycle than 2026–27.",
+   "value": "Day scholars Rs 1,200/month, hostellers Rs 2,500/month plus fee reimbursement. (from 2025–26)",
+   "sources": [
+    {
+     "source": "S2",
+     "value": "Day scholars Rs 1,200/month, hostellers Rs 2,500/month plus fee reimbursement.",
+     "quote": "For the 2025-26 session, day scholars receive a maintenance allowance of Rs 1,200 per month and hostellers receive Rs 2,500 per month,",
+     "quote_match": 100,
+     "date": "2025–26",
+     "url": "https://official.traplab.example/notice-2025-26",
+     "confirmed_live": false
+    }
+   ],
+   "note": "Since the available numbers are from the 2025-26 cycle, check the latest 2026-27 notification for any revised monthly rates or fee caps.",
+   "note_is_ai": true,
+   "undated": false
+  },
+  {
+   "id": "renewal-criteria",
+   "title": "Renewal and Continuation Rules",
+   "category": "Renewal",
+   "status": "missing",
+   "critical": true,
+   "summary": "Potential gap: none of the 5 analysed source(s) mention renewal and continuation rules.",
+   "value": "Not found in supplied sources",
+   "sources": [],
+   "note": "Keep track of your academic transcripts and attendance records just in case renewal requires maintaining a minimum percentage.",
+   "note_is_ai": true,
+   "undated": false
+  }
+ ],
+ "key_facts": [
+  {
+   "finding_id": "eligibility-rules",
+   "title": "Undergraduate Eligibility Criteria",
+   "value": "Undergraduate students with parental annual income up to Rs 2,50,000 are eligible.",
+   "sources": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "finding_id": "domicile-requirement",
+   "title": "Madhya Pradesh Domicile Status",
+   "value": "Applicants must upload a Rajasthan domicile certificate. (for Rajasthan)",
+   "sources": [
+    "S5"
+   ]
+  },
+  {
+   "finding_id": "income-documents",
+   "title": "Required Income Documents",
+   "value": "An income certificate issued by the Tehsildar is mandatory.",
+   "sources": [
+    "S1",
+    "S3",
+    "S4"
+   ]
+  },
+  {
+   "finding_id": "application-deadline",
+   "title": "Application Deadline 2026-27",
+   "value": "30 November 2026",
+   "sources": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "finding_id": "scholarship-amount",
+   "title": "Scholarship Amount or Rates",
+   "value": "Day scholars Rs 1,200/month, hostellers Rs 2,500/month plus fee reimbursement. (from 2025–26)",
+   "sources": [
+    "S2"
+   ]
+  },
+  {
+   "finding_id": "renewal-criteria",
+   "title": "Renewal and Continuation Rules",
+   "value": "Not found in supplied sources",
+   "sources": []
+  }
+ ],
+ "unanswered_questions": [
+  {
+   "finding_id": "domicile-requirement",
+   "question": "What are the exact domicile certificate requirements for students residing in Madhya Pradesh instead of Rajasthan?"
+  },
+  {
+   "finding_id": "income-documents",
+   "question": "Is an income certificate issued by the Tehsildar strictly mandatory, or is a self-declaration of income accepted for 2026-27?"
+  },
+  {
+   "finding_id": "scholarship-amount",
+   "question": "What are the exact scholarship rates and fee reimbursement amounts for the 2026-27 academic cycle?"
+  },
+  {
+   "finding_id": "renewal-criteria",
+   "question": "What are the specific academic or attendance criteria required to renew the scholarship for the next year?"
+  }
+ ],
+ "checklist": [
+  {
+   "id": "c1",
+   "text": "Resolve the income document requirement between an official Tehsildar certificate and self-declaration.",
+   "why": "There is a conflict between sources regarding whether an income certificate issued by the Tehsildar is mandatory or if a self-declaration is enough.",
+   "where": "Trap Lab Department of Welfare office or official portal",
+   "critical": true
+  },
+  {
+   "id": "c2",
+   "text": "Verify the correct domicile certificate requirement for Madhya Pradesh applicants.",
+   "why": "The domicile requirement is unverified as the available source references a Rajasthan domicile certificate.",
+   "where": "Trap Lab Department of Welfare helpdesk",
+   "critical": true
+  },
+  {
+   "id": "c3",
+   "text": "Confirm the renewal and continuation rules for subsequent years.",
+   "why": "Renewal criteria information is missing from the supplied sources.",
+   "where": "Trap Lab Department of Welfare official guidelines",
+   "critical": true
+  },
+  {
+   "id": "c4",
+   "text": "Check for the updated scholarship amount and fee reimbursement rates for the 2026–27 cycle.",
+   "why": "The available scholarship amount details are outdated and belong to the 2025–26 cycle.",
+   "where": "Trap Lab Department of Welfare notice board",
+   "critical": true
+  }
+ ],
+ "generated_at": "2026-10-31T06:30:42+00:00",
+ "mode": "live",
+ "warnings": [],
+ "source_dna": {
+  "pairs": [
+   {
+    "a": "S3",
+    "b": "S4",
+    "overlap": 97,
+    "relation": "copied",
+    "shared_sentences": [
+     "For the 2026-27 session you do not need to visit the tehsil office at all, because a self-declaration of income is enough and no income certificate is needed.",
+     "Many students worry about the documents, but the portal accepts photos taken on a mobile phone as long as they are clear and readable.",
+     "Keep your bank passbook ready because the scholarship money is sent directly to your bank account after verification by the institute.",
+     "The post matric scholarship process has become very simple this year and many students are applying from their phones."
+    ],
+    "shared_count": 7
+   },
+   {
+    "a": "S1",
+    "b": "S2",
+    "overlap": 38,
+    "relation": "overlap",
+    "shared_sentences": [
+     "Invented for a demo; not real scholarship guidance."
+    ],
+    "shared_count": 1
+   },
+   {
+    "a": "S1",
+    "b": "S5",
+    "overlap": 11,
+    "relation": "independent",
+    "shared_sentences": [
+     "Invented for a demo; not real scholarship guidance."
+    ],
+    "shared_count": 1
+   },
+   {
+    "a": "S2",
+    "b": "S5",
+    "overlap": 11,
+    "relation": "independent",
+    "shared_sentences": [
+     "Invented for a demo; not real scholarship guidance."
+    ],
+    "shared_count": 1
+   },
+   {
+    "a": "S3",
+    "b": "S5",
+    "overlap": 10,
+    "relation": "independent",
+    "shared_sentences": [
+     "Invented for a demo; not real scholarship guidance."
+    ],
+    "shared_count": 1
+   },
+   {
+    "a": "S4",
+    "b": "S5",
+    "overlap": 10,
+    "relation": "independent",
+    "shared_sentences": [
+     "Invented for a demo; not real scholarship guidance."
+    ],
+    "shared_count": 1
+   },
+   {
+    "a": "S2",
+    "b": "S3",
+    "overlap": 9,
+    "relation": "independent",
+    "shared_sentences": [
+     "Invented for a demo; not real scholarship guidance."
+    ],
+    "shared_count": 1
+   },
+   {
+    "a": "S2",
+    "b": "S4",
+    "overlap": 9,
+    "relation": "independent",
+    "shared_sentences": [
+     "Invented for a demo; not real scholarship guidance."
+    ],
+    "shared_count": 1
+   },
+   {
+    "a": "S1",
+    "b": "S3",
+    "overlap": 8,
+    "relation": "independent",
+    "shared_sentences": [
+     "Invented for a demo; not real scholarship guidance."
+    ],
+    "shared_count": 1
+   },
+   {
+    "a": "S1",
+    "b": "S4",
+    "overlap": 8,
+    "relation": "independent",
+    "shared_sentences": [
+     "Invented for a demo; not real scholarship guidance."
+    ],
+    "shared_count": 1
+   }
+  ],
+  "clusters": [
+   [
+    "S3",
+    "S4"
+   ]
+  ],
+  "note": "1 group(s) of sources look like copies of each other; treat each group as one voice.",
+  "illustrative": false
+ },
+ "demo_run": true,
+ "demo_topic": "Trap Lab",
+ "traplab": true
+}

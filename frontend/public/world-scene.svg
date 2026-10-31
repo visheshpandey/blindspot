@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 330" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#BDEBFF"/><stop offset="1" stop-color="#E7F7FF"/></linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#9EDB83"/><stop offset="1" stop-color="#63B86B"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="900" height="330" rx="24" fill="url(#sky)"/>
+  <circle cx="770" cy="65" r="38" fill="#FFD34F"/>
+  <g fill="#fff" opacity=".92"><path d="M93 72c3-18 29-24 42-8 14-19 44-8 44 13H93z"/><path d="M620 37c2-14 22-20 33-7 11-15 36-6 36 12h-69z"/></g>
+  <path d="M0 216c128-26 197-4 309-20 127-18 204 10 309-4 102-13 182 4 282-12v150H0V216z" fill="url(#grass)"/>
+  <!-- neighbourhood road -->
+  <path d="M0 270c194-29 317-18 457-5 167 16 279-4 443-27v92H0v-60z" fill="#F3D8A5"/>
+  <path d="M0 291c185-26 311-15 458-2 167 15 282-4 442-26" stroke="#fff6df" stroke-width="5" stroke-dasharray="26 22"/>
+  <!-- house left -->
+  <g stroke="#26384B" stroke-width="4" stroke-linejoin="round">
+    <path d="M57 154 139 93l83 61v86H57v-86z" fill="#FFE9A8"/>
+    <path d="m42 158 97-75 98 75" fill="#EF735C"/>
+    <rect x="91" y="174" width="38" height="66" rx="4" fill="#9DD9F3"/>
+    <rect x="157" y="177" width="39" height="32" rx="4" fill="#9DD9F3"/>
+    <path d="M174 177v32M157 193h39"/>
+  </g>
+  <!-- school -->
+  <g stroke="#26384B" stroke-width="4" stroke-linejoin="round">
+    <path d="M300 140h184v105H300z" fill="#FFF4D2"/>
+    <path d="m282 143 110-64 110 64" fill="#4A9FD1"/>
+    <rect x="367" y="184" width="49" height="61" rx="4" fill="#E88B5C"/>
+    <rect x="319" y="164" width="31" height="27" rx="3" fill="#A9E2F8"/>
+    <rect x="434" y="164" width="31" height="27" rx="3" fill="#A9E2F8"/>
+    <path d="M334 164v27m-15-13h31m115-14v27m-16-13h31"/>
+    <path d="M392 78V45" stroke-width="5"/>
+    <path d="M394 47h48l-10 17h-38" fill="#EF6758"/>
+  </g>
+  <g fill="#245B46" stroke="#26384B" stroke-width="4"><circle cx="253" cy="192" r="30" fill="#67B978"/><path d="M244 219h18v39h-18z" fill="#A96D43"/></g>
+  <!-- right homes -->
+  <g stroke="#26384B" stroke-width="4" stroke-linejoin="round">
+    <path d="M575 169 645 116l72 53v77H575v-77z" fill="#F6B8A0"/><path d="m558 172 87-70 88 70" fill="#ED765D"/>
+    <rect x="607" y="187" width="34" height="58" rx="4" fill="#A5DCF2"/><rect x="660" y="184" width="27" height="28" rx="3" fill="#A5DCF2"/>
+    <path d="M747 181h111v65H747z" fill="#FFF0B8"/><path d="m736 183 66-47 67 47" fill="#5C9FD0"/><rect x="790" y="206" width="28" height="40" rx="3" fill="#F08A5F"/>
+  </g>
+  <!-- cheeky young detective mascot, original character -->
+  <g stroke="#253449" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M700 234c-11-26-7-57 12-75 18-18 55-15 68 8 14 24 9 51-1 68l-79-1z" fill="#252F3D"/>
+    <path d="M705 181c-17-17-4-35 11-29 4-21 27-25 35-9 18-11 34 2 27 19 18 0 19 20 4 27l-6-10-62 8z" fill="#252F3D"/>
+    <ellipse cx="744" cy="204" rx="38" ry="36" fill="#F6C49D"/>
+    <path d="M721 198q10-8 19 0M751 197q10-8 19 0" stroke-width="5"/>
+    <circle cx="731" cy="205" r="3.7" fill="#253449" stroke="none"/><circle cx="761" cy="204" r="3.7" fill="#253449" stroke="none"/>
+    <path d="M740 214q7 6 14-1" stroke-width="3"/>
+    <path d="M711 239q33-18 65 1l13 49h-90l12-50z" fill="#ED6254"/>
+    <path d="M718 284h54l10 34h-75l11-34z" fill="#FFD34F"/>
+    <path d="M715 244 694 262m70-17 17 20" stroke-width="9"/>
+    <path d="M691 254q-8 1-10 10" stroke-width="6"/>
+    <!-- magnifying glass -->
+    <circle cx="682" cy="255" r="20" fill="#D7F2FF" fill-opacity=".9" stroke="#3986B6" stroke-width="6"/>
+    <path d="m668 270-12 16" stroke="#3986B6" stroke-width="8"/>
+    <path d="M716 318h-21m77 0h-23" stroke-width="7"/>
+  </g>
+  <g fill="#fff" stroke="#26384B" stroke-width="3"><path d="M792 99h73q13 0 13 13v26q0 13-13 13h-20l-10 12-5-12h-38q-13 0-13-13v-26q0-13 13-13z"/><path d="M810 124h39" stroke="#26384B" stroke-linecap="round" stroke-width="4"/></g>
+  <g fill="#F07B5D"><path d="m526 59 7 15 16 2-12 11 3 16-14-8-14 8 3-16-12-11 16-2 7-15z"/><circle cx="527" cy="119" r="5"/><circle cx="40" cy="43" r="6"/></g>
+</svg>

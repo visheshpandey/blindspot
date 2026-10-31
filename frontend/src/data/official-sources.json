@@ -1,0 +1,21 @@
+{
+  "_note": "Static suggestions only (no internet lookup). Each entry is a well-known official portal; users should still check it fits their case.",
+  "national": [
+    { "label": "National Scholarship Portal", "url": "https://scholarships.gov.in/", "for": ["Undergraduate student", "Postgraduate student", "School student (Class 11–12)", "Diploma / ITI student", "Parent / guardian"] },
+    { "label": "Ministry of Social Justice schemes", "url": "https://socialjustice.gov.in/schemes/25", "for": ["Undergraduate student", "Postgraduate student", "Parent / guardian"] },
+    { "label": "AICTE Internship portal", "url": "https://internship.aicte-india.org/", "for": ["Undergraduate student", "Diploma / ITI student", "Job seeker"] },
+    { "label": "National Career Service", "url": "https://ncs.gov.in/", "for": ["Job seeker"] },
+    { "label": "CUET (NTA)", "url": "https://cuet.nta.nic.in/", "for": ["School student (Class 11–12)", "Undergraduate student", "Parent / guardian"] },
+    { "label": "UGC", "url": "https://www.ugc.gov.in/", "for": ["Postgraduate student", "Undergraduate student"] }
+  ],
+  "state": {
+    "Madhya Pradesh": [{ "label": "MP Scholarship Portal", "url": "https://scholarshipportal.mp.nic.in/" }],
+    "Uttar Pradesh": [{ "label": "UP Scholarship", "url": "https://scholarship.up.gov.in/" }],
+    "Maharashtra": [{ "label": "MahaDBT", "url": "https://mahadbt.maharashtra.gov.in/" }],
+    "Rajasthan": [{ "label": "Rajasthan SJE", "url": "https://sje.rajasthan.gov.in/" }],
+    "Bihar": [{ "label": "Bihar PMS Online", "url": "https://pmsonline.bih.nic.in/" }],
+    "Delhi": [{ "label": "Delhi e-District", "url": "https://edistrict.delhigovt.nic.in/" }],
+    "Karnataka": [{ "label": "Karnataka SSP", "url": "https://ssp.postmatric.karnataka.gov.in/" }],
+    "West Bengal": [{ "label": "WB OASIS", "url": "https://oasis.gov.in/" }]
+  }
+}
